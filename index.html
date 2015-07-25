@@ -15,19 +15,61 @@
 
 <!-- *************************************AQUI VA LA PRIMERA PARTE - GRIS**************************-->
   <div id="primera-parte-gris">
-      <header>
-        <nav><ul>
-        <li class="active"><a href="#">home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contacts</a></li>
-        </ul></nav>
-      </header><!-- /#banner -->
+       <header>
+    <nav>
+      <ul>
+        <li class="positionRelative active">
+         <a href="#">HOME</a>
+         <span id="showMenu"></span>
+        </li>
+        <li><a href="paginas/about_us.html">ABOUT</a></li>
+        <li><a href="paginas/services.html">SERVICES</a></li>
+        <li><a href="paginas/blog.html">BLOG</a></li>
+        <li><a href="paginas/contact.html">CONTACTS</a></li>
+      </ul>
+    </nav>
+    <img alt="Logo of our company Collaboration Dynamic Development" id="logo" src="images/logo.jpg" />
+  </header><!-- End Header -->
 
-      <a href="#"><img id="logo" src="images/logo.jpg"></a>
+      
       <h1 id= "textoprincipal"><span>The World</span> of Opportunities</h1>
-      <img id="circulos" src="images/circulos.jpg">
+
+      <section class="main">
+        <ul class="ch-grid">
+          <li>
+            <div class="ch-item ch-img-1">
+              <div class="ch-info">
+                <img class="imagendentrocirculo" src="images/home/analisis.png"></img>
+                <h3>Analysis</h3>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-2">
+              <div class="ch-info">
+                <img class="imagendentrocirculo" src="images/home/solutions.png"></img>
+                <h3>Solutions</h3>                
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-3">
+              <div class="ch-info">
+                <img class="imagendentrocirculo" src="images/home/strategies.png"></img>
+                <h3>Strategies</h3>               
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-img-4">
+              <div class="ch-info">
+                <img class="imagendentrocirculo" src="images/home/experience.png"></img>
+                <h3>Experience</h3>               
+              </div>
+            </div>
+          </li>
+        </ul>       
+      </section>      
   </div>
 
 <!--***********************************AQUI VA LA SEGUNDA PARTE - NARANJA***************************-->
@@ -95,7 +137,7 @@
               <h1 class="entry-title">WHO WE ARE?</h1>
               <h2 class="secondary-title"> INDUSTRIAS SADASDA </h2>
             </header>
-            <img src="images/valija.jpg" id="imagenseccion">
+            <img src="images/home/valija.jpg" id="imagenseccion">
             <div class="entry-content">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum.</p>
               <a href="#"><h2>More</h2></a>
@@ -107,7 +149,7 @@
               <h1 class="entry-title">WHAT WE DO?</h1>
               <h2 class="secondary-title"> INDUSTRIAS SADASDA </h2>
             </header>
-            <img src="images/papeles.jpg" id="imagenseccion">
+            <img src="images/home/papeles.jpg" id="imagenseccion">
             <div class="entry-content">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis elementum.</p>
               <a href="#"><h2>More</h2></a>
@@ -126,7 +168,7 @@
       <section id="seccionfoot">
       <ol>
         <li><article class="articulo">  
-            <img src="images/map.png" id="imagenseccionfoot-1"/>
+            <img src="images/home/map.png" id="imagenseccionfoot-1"/>
             <div class="entry-content-footer-1">
               <p id="line-1">9863 - 9867 MILL ROAD,</p>
               <p id="line-2">CAMBRIDGE, MG09 99HT</p>
@@ -135,7 +177,7 @@
         </article></li>
 
         <li><article class="articulo">  
-            <img src="images/computer.png" id="imagenseccionfoot-2">
+            <img src="images/home/computer.png" id="imagenseccionfoot-2">
             <div class="entry-content-footer-2">
               <p id="line-1">EMAIL COLLABORATION</p>
               <p id="line-2">TWITTER / INSTAGRAM</p>
@@ -146,10 +188,11 @@
       </section>
  <div class="espacio"></div>
       <a href="#"><img id="logo" src="images/logodos.jpg"></a><p>
-      <img id="logodos" src="images/circulo-index.jpg">
+      <img id="logodos" src="images/home/circulo-index.jpg">
 	</footer>
 
 <div id="barranaranja"></div>
-
+<script type="text/javascript" src="js/jquerycode.js"></script>
+<script type="text/javascript" src="js/menuSlider.js"></script>
 </body>
 </html>
